@@ -1,0 +1,145 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+header, footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu, .order {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.food-items, .order-items {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* کارت غذا */
+.food-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.food-card:hover {
+  transform: scale(1.02);
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-card h3 {
+  margin: 12px 0 4px;
+  font-size: 1.1rem;
+}
+
+.food-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.food-card span {
+  font-weight: bold;
+  color: #111;
+  margin: 6px 0;
+}
+
+.add-to-order-btn {
+  padding: 8px 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-to-order-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* order  */
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.order-total {
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #111827;
+}
+
+
+.timer-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#countdown {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#start-timer {
+  padding: 10px 16px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#start-timer:hover {
+  background-color: #059669;
+}
+
+/* try again */
+#retry-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+#retry-btn:hover {
+  background-color: #dc2626;
+}
+
