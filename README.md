@@ -62,7 +62,7 @@ https://nastaranfh7.github.io/smart-food-order/
 ![Pizza Margherita](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80)  
 Classic pizza with tomato, mozzarella, and basil.
 
-![Caesar Salad](https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80)  
+![Caesar Salad](https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80)  
 Fresh and crispy Caesar salad.
 
 ![Grilled Chicken](https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80)  
